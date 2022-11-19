@@ -27,27 +27,19 @@ switch (day) {
 document.querySelector('.heading').innerHTML = day;
 
 
+let b = Number( prompt("Введите цикл"))
+let x =0;
+while (b<10) {
+  x+=b;
+  b++;
+}
+alert('Сума чилсла'+ '   ' + x)
 
 
-
-
-// let number = prompt("Введите число!!!");
-// switch (number) {
-//   case '':
-//     alert( 'Маловато' );
-//     break;
-//   case '2':
-//     alert( 'Маловато' );
-//     break;
-//   case '3':
-//     alert( 'Маловато' );
-//     break;
-//   case '4':
-//     alert( 'В точку!' );
-//     break;
-//   case '5':
-//     alert( 'Перебор' );
-//     break;
-//   default:
-//     alert( "Нет таких значений" );
-// }
+let a = Number( prompt("Введите цикл"))
+let s =0;
+while (b>10) {
+  s+=a;
+  a--;
+}
+alert('Убывание чилсла'+ '   ' + s)
