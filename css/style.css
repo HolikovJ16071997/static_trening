@@ -28,7 +28,7 @@ img{
 
 /* conteiner */
 
-.conteiner{
+.container{
     width: 100%;
     max-width: 1200px;
     padding-left: 50px;
@@ -40,4 +40,59 @@ img{
 /* main_content */
 .main_content{
     flex-grow: 1;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #000;
+    font-size: 50px;
+    background: rgba(196, 165, 11, 0.5);
+}
+.box_static{
+    position: static;
+}
+
+.box_relateive{
+    position: relative;
+}
+.box_absolute{
+    
+    left: 50%;
+    bottom: 50%;
+    position: absolute;
+
+}
+.parent_static{
+    position: relative;
+}
+.parent{
+    height: 250px;
+    border: 10px solid #000;
+    background: rgba(255, 255, 0,0.8);
+}
+.child{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background:rgba(0, 221, 255, 0.8) ;
+}
+.parent_text{
+    font-size: 30px;
+    line-height: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    padding: 10px;
+    font-size: 56px;
+    text-align: center;
+}
+.dashed{
+    margin-top: 100px;
+    border: dashed  1px  red;
 }
