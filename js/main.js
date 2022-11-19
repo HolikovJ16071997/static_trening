@@ -1,4 +1,4 @@
-let day=+Number(prompt("Введите сегодняшнего номер дня"));
+let day=+Number(prompt("Введите номер сегодняшнего дня"));
 switch (day) {
     case 1:
     day="Сегодня понедельник";
